@@ -1,0 +1,19 @@
+[package]
+name = "systemf"
+version = "0.1.0"
+authors = ["\"ferhatgec\""]
+edition = "2018"
+description = "C-like syscall macro, aka an interface of ::Command"
+keywords = ["macro", "syscall", "system", "rust", "simple"]
+readme = "README.md"
+repository = "https://github.com/ferhatgec/systemf/"
+documentation = "https://docs.rs/systemf"
+license = "MIT"
+
+include = [
+    ".gitignore",
+    "src/lib.rs",
+    "Cargo.toml",
+]
+
+[dependencies]
